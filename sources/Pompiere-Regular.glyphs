@@ -1,5 +1,13 @@
 {
 .formatVersion = 3;
+featurePrefixes = (
+{
+code = "table GDEF {
+    GlyphClassDef [.null nonmarkingreturn uni0001 uni0002 uni0003 uni0004 uni0005 uni0006 uni0007 uni0008 uni0009 uni0010 uni0011 uni0012 uni0013 uni0014 uni0015 uni0016 uni0017 uni0018 uni0019 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde nonbreakingspace exclamdown cent sterling currency yen brokenbar section dieresis copyright ordfeminine guillemotleft logicalnot uni00AD registered macron degree plusminus twosuperior threesuperior acute mu paragraph periodcentered cedilla onesuperior ordmasculine guillemotright onequarter onehalf threequarters questiondown Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis multiply Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis divide oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis hbar Itilde itilde dotlessi IJ ij Jcircumflex jcircumflex kcommaaccent kgreenlandic Ldotaccent ldot Lslash lslash Nacute nacute OE oe Racute Rcommaaccent rcommaaccent Rcaron rcaron dotlessj circumflex caron ring tilde dotaccentcmb uni034F endash emdash quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis perthousand guilsinglleft guilsinglright Euro trademark fi fl acute.cap ring.cap dieresis.cap tilde.cap grave.cap circumflex.cap caron.cap commaaccent dotaccentcmb.cap], , , ;
+} GDEF;";
+name = GDEF;
+},
+);
 customParameters = (
 {
 name = fsType;
